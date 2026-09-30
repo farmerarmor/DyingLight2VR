@@ -1,0 +1,27 @@
+[
+  {
+    "file": "DyingLightGame_x64_rwdi.exe",
+    "sha256": "8a3c05f4f953d052a13df1b801f9e992a0116c93989ef8ad4399372453ac7d29",
+    "machine": "0x8664"
+  },
+  {
+    "file": "engine_x64_rwdi.dll",
+    "sha256": "a06519ee1fd79de1d665215f38e6b89f2b074bf9745912c64a6f0684617adb63",
+    "machine": "0x8664"
+  },
+  {
+    "file": "gamedll_ph_x64_rwdi.dll",
+    "sha256": "b417213b3b1e70b9bb589b88d388bb99dd213b9082d44ef38f4021146f6ee6c4",
+    "machine": "0x8664"
+  },
+  {
+    "file": "rd3d11_x64_rwdi.dll",
+    "sha256": "af61be54f24afdccdeb396944badc915eb446b7760aa73b6f2c0d3ef039ac655",
+    "machine": "0x8664"
+  },
+  {
+    "file": "rd3d12_x64_rwdi.dll",
+    "sha256": "5df9686d1ddd50ed4559ce449ae5a01d2bd03a8a4b9c2d71d0ef9cf3629b61e2",
+    "machine": "0x8664"
+  }
+]

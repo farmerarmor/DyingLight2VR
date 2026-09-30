@@ -1,0 +1,13 @@
+/build*/
+/bin/
+/diagnostics/
+/backups/
+/releases/
+*.pdb
+*.ilk
+*.exp
+*.log
+installation.json
+DL2VR-install.json
+DL2VR-effects-*/
+DL2VR-marked-shaders/
