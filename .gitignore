@@ -11,3 +11,6 @@ installation.json
 DL2VR-install.json
 DL2VR-effects-*/
 DL2VR-marked-shaders/
+
+/dx12/bin/
+/dx12/build*/

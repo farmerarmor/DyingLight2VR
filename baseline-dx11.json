@@ -15,6 +15,11 @@
     "machine": "0x8664"
   },
   {
+    "file": "rd3d11_x64_rwdi.dll",
+    "sha256": "af61be54f24afdccdeb396944badc915eb446b7760aa73b6f2c0d3ef039ac655",
+    "machine": "0x8664"
+  },
+  {
     "file": "rd3d12_x64_rwdi.dll",
     "sha256": "5df9686d1ddd50ed4559ce449ae5a01d2bd03a8a4b9c2d71d0ef9cf3629b61e2",
     "machine": "0x8664"

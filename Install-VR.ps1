@@ -35,7 +35,7 @@ Copy-Item -LiteralPath $source -Destination $destination
 if ((Get-FileHash -LiteralPath $destination -Algorithm SHA256).Hash -ne $expected) { throw 'Installed checksum mismatch.' }
 $ini = Join-Path $target 'DL2VR.ini'
 if (!(Test-Path -LiteralPath $ini)) { Copy-Item -LiteralPath (Join-Path $PSScriptRoot 'DL2VR.ini') -Destination $ini }
-@{destination=$destination;sha256=$expected;version='0.1.0';installedAt=(Get-Date).ToString('o')} |
+@{destination=$destination;sha256=$expected;version='0.2.0';installedAt=(Get-Date).ToString('o')} |
     ConvertTo-Json | Set-Content -LiteralPath $receiptPath
-Write-Output 'DyingLight2VR installed. Activate your OpenXR headset and run Launch-VR.cmd.'
+Write-Output 'DyingLight2VR DX12 installed. Select DirectX 12 in the game. Activate your OpenXR headset and run Launch-VR.cmd.'
 Write-Output "Settings: $ini"
